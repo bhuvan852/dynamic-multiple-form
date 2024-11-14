@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <title>{{ config('app.name', 'MDFMS') }}</title>
+  <title>MDFMS</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -36,8 +36,8 @@
 
 <body>
 <div class="container-fluid bg-1 text-center">
-  <h1>Multiple Dynamic Form Managemnt System (MDFMS) </h1> 
-  <a href="{{route('login')}}" class="btn btn-login">Login </a>
+  <h3 style="text-size:50 px">Thank you! Your data has been successfully submitted.</h3> 
+  <p>You may now safely close this window.</p>
 </div>
 </body>
 </html>
